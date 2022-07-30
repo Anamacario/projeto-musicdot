@@ -1,30 +1,33 @@
 body {
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Helvetica", "Lucida Grande", sans-serif;
-    color: #3D3D3D;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
+  color: #3D3D3D;
 }
-    
+
 .titulo {
-    padding: 10px;
-    font-size: 32px;
-    background-color: #E1EDF2;
+  padding: 10px;
+  font-size: 32px;
+  background-color: #E1EDF2;
 }
-    
+
 .subtitulo {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
-    
+
 figure {
-    margin: 30px;
-    padding: 15px;
-    text-align: center;
-    background-color: whitesmoke;
-    border: 1px solid lightgrey;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
 }
+
 figcaption {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .matriz-musicdot {
@@ -47,15 +50,15 @@ figure img {
 }
 
 .contato__secao {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 16px;
-  }
-  
-  .contato__secao--telefone {
-    margin-left: 32px;
-  }
-  
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.contato__secao--telefone {
+  margin-left: 32px;
+}
+
 
 .contato__info {
   margin: 16px 0 24px;
@@ -69,4 +72,20 @@ figure img {
 
 .contato__info-descricao {
   margin-left: 10px;
+}
+
+
+.rodape {
+  padding: 1.75em 0;
+
+  font-size: 1.1rem;
+}
+
+.rodape__logo {
+  width: 6em;
+}
+
+.rodape__copyright {
+  display: inline;
+  margin-left: 1em;
 }
